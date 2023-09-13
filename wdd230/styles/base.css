@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkorchid;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+main{
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+img{
+    padding: left;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightslategray;
+}
+a {
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Varela Round';
+}
+h1 {
+    font-family: 'Varela Round';
+    text-align: center;
+}
+h3{
+    background-color:darkorchid;
+}
+.box{
+    border: 5px solid lightslategray;
+}
+
+footer{
+    text-align: center;
+    border: 5px solid lightslategray;
+}
