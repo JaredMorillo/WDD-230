@@ -37,10 +37,9 @@ h1 {
 h3{
     background-color:darkorchid;
 }
-.box{
+ul {
     border: 5px solid lightslategray;
 }
-
 footer{
     text-align: center;
     border: 5px solid lightslategray;
@@ -76,6 +75,7 @@ footer{
         text-decoration: none;
         font-family: 'Varela Round';
     }
+    
     h1 {
         font-family: 'Varela Round';
         display: flex;
@@ -84,13 +84,11 @@ footer{
     h3{
         background-color:darkorchid;
     }
-    .box{
+    ul {
         border: 5px solid lightslategray;
     }
-    
     footer{
         text-align: center;
-        border: 5px solid lightslategray;
         font-family: 'Varela Round';
     }
 }
