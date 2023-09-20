@@ -42,7 +42,6 @@ ul {
 }
 footer{
     text-align: center;
-    border: 5px solid lightslategray;
     font-family: 'Varela Round';
 }
 @media screen and (max-width: 900px){
