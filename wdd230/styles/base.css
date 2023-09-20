@@ -15,7 +15,7 @@ main{
     font-family: 'Josefin Sans';
     text-align: center;
 }
-img{
+.logo{
     padding: left;
 }
 nav{
@@ -60,7 +60,7 @@ footer{
         font-family: 'Josefin Sans';
         text-align: center;
     }
-    img{
+    .logo{
         padding: left;
     }
     nav{
