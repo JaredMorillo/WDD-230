@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WDD-230/wdd230/styles/base.css">
+    <title>Design Principles</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    header{
+        background-color: lightblue;
+        display: grid;
+        grid-template-columns: 150px auto;
+        text-align: center;
+        padding: 20px;
+    } 
+    body {
+	font-size: 16px;
+	font-family: "Josefin Sans";
+    }
+    main {
+        max-width: 767px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+    }
+    img{
+	box-shadow: 0 0 30px #333;
+    }
+    main section {
+        margin: 0.5rem;
+        border: 1px solid #bbb;
+        padding: 0 1rem;
+        background-color: #eee;
+    }
+
+    main section h2 {
+        color: #536878;
+    }
+
+
+
+    main section:nth-child(2) {
+        display: none;
+        margin: 0.5rem;
+    }
+
+    @media only screen and (min-width: 37.5em) {
+        main {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        main section:nth-child(2) {
+            display: block;
+        }
+
+        main section:nth-child(3) {
+            grid-column: span 2;
+        }
+
+        main section {
+            display: block;
+        }
+        main section img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #bbb;
+        }
+    }
+
+
+    @media only screen and (min-width: 60em) {
+        main {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+        main section:nth-child(1) {
+        grid-column: 1/2;
+        }
+        main section:nth-child(2) {
+        grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        main section:nth-child(3) {
+            grid-column: span 1;
+        }
+    }  
+        h1, h2 {
+        font-family: 'Varela Round';
+        display: flex;
+        justify-content: space-around;
+        }
+        footer{
+        text-align: center;
+        font-family: 'Varela Round';
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jared G. Morillo</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Alignment</h2>
+            <img class="alignment" src="images/Alignment.jpeg" alt="alignment image">
+            <p>The elements of this type of the Design Principle should have visual connection
+                with another element, whether that's an obvious connection such as in a table or
+                a subtle one (invisble lines).
+                Elements should not be randomly placed. Visual disconnection 
+                is the biggest cause of unpleasant looking documents.
+                Use a grid when it's applicable to do so, and always 
+                use strong alignments. I talked about alignments in my last post, Typography, 
+                so you can check that out for more.</p>
+        </section>
+        <section>
+            <h2>Contrast</h2>
+            <img class="contrast" src="images/Contrast.jpeg" alt="contrast image">
+            <p>This is mostly used to emphasise the difference between selected elements, 
+                and is created when two elements are very different. 
+                Contrast creates visual interest for the user and can be used in many different ways.</p>
+        </section>
+        <section>
+            <h2>Proximity</h2>
+            <img class="contrast" src="images/Proximity.jpeg" alt="contrast image">
+            <p>When page elements are in proximity with one another, we call this a visual unit. Visual units create less clutter on a page, 
+                and gives structure to the information you are displaying. It also means that information is more likely to be taken in and 
+                remembered when in one, related visual unit.
+                In design, related elements should be grouped together. 
+                For example, contact details on a business card would be one visual unit of related information.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="copyrightYear"></span></p><p>&#9801Jared Morillo&#9801</p>
+        <p>Ecuador</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script>// getdates.js
+
+        // Function to update the copyright year in the footer
+        function updateCopyrightYear() {
+            const currentYear = new Date().getFullYear();
+            document.getElementById('copyrightYear').textContent = currentYear;
+        }
+        
+        // Function to update the last modified date in the footer
+        function updateLastModified() {
+            const lastModified = document.lastModified;
+            document.getElementById('lastModified').textContent = lastModified;
+        }
+        
+        // Call the functions to update the footer content
+        updateCopyrightYear();
+        updateLastModified();</script>
+</body>
+</html>
