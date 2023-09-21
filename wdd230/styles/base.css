@@ -10,17 +10,20 @@ header{
     background-color: lightblue;
     display: grid;
     grid-template-columns: 150px auto;
+    text-align: center;
+    padding: 20px;
 }
 main{
     font-family: 'Josefin Sans';
     text-align: center;
+    padding: 20px;
 }
 nav{
     display: flex;
     justify-content: space-around;
     background-color: grey;
-    box-sizing: 150px;
-
+    text-align: center;
+    padding: 10px;
 }
 a {
     padding: 35px;
@@ -43,7 +46,7 @@ footer{
     text-align: center;
     font-family: 'Varela Round';
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
     body{
         background-color: white;
         font-size: 22px;
@@ -51,26 +54,30 @@ footer{
         padding: 0;
     }
     header{
-        background-color:lightblue;
+        background-color: lightblue;
         display: grid;
         grid-template-columns: 150px auto;
+        text-align: center;
+        padding: 20px;
     }
     main{
         font-family: 'Josefin Sans';
         text-align: center;
+        padding: 20px;
     }
     nav{
         display: flex;
         justify-content: space-around;
         background-color: grey;
+        text-align: center;
+        padding: 10px;
     }
     a {
-        padding: 25px;
+        padding: 35px;
         text-align: center;
         text-decoration: none;
         font-family: 'Varela Round';
     }
-    
     h1 {
         font-family: 'Varela Round';
         display: flex;
