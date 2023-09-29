@@ -3,8 +3,6 @@
 body{
     background-color: white;
     font-size: 22px;
-    margin: 0;
-    padding: 0;
 }
 header{
     background-color: lightblue;
@@ -41,6 +39,12 @@ h3{
 }
 ul {
     border: 5px solid grey;
+}
+.maps{
+    max-width: fit-content;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
 }
 footer{
     text-align: center;
