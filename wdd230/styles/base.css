@@ -7,9 +7,6 @@ body{
 header{
     background-color: lightblue;
     display: grid;
-    grid-template-columns: 150px auto;
-    text-align: center;
-    padding: 20px;
 }
 main{
     font-family: 'Josefin Sans';
@@ -17,11 +14,11 @@ main{
     padding: 20px;
 }
 nav{
+    padding: 35px;
+    text-align: center;
     display: flex;
     justify-content: space-around;
     background-color: grey;
-    text-align: center;
-    padding: 10px;
 }
 a {
     padding: 35px;
