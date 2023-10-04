@@ -13,18 +13,59 @@ main{
     text-align: center;
     padding: 20px;
 }
-nav{
-    padding: 35px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    background-color: grey;
-}
 a {
     padding: 35px;
     text-align: center;
     text-decoration: none;
     font-family: 'Varela Round';
+}
+/* Mobile View ***************/
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+#menu::before {
+	content: "≡";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+.show li {
+	display: block;
+}
+#menu.show::before {
+	content: "X";
 }
 h1 {
     font-family: 'Varela Round';
@@ -51,28 +92,15 @@ footer{
 @media screen and (max-width: 768px){
     body{
         background-color: white;
-        font-size: 22px;
-        margin: 0;
-        padding: 0;
     }
     header{
         background-color: lightblue;
         display: grid;
-        grid-template-columns: 150px auto;
-        text-align: center;
-        padding: 20px;
     }
     main{
         font-family: 'Josefin Sans';
         text-align: center;
         padding: 20px;
-    }
-    nav{
-        display: flex;
-        justify-content: space-around;
-        background-color: grey;
-        text-align: center;
-        padding: 10px;
     }
     a {
         padding: 35px;
@@ -80,6 +108,26 @@ footer{
         text-decoration: none;
         font-family: 'Varela Round';
     }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: grey;
+        text-align: center;
+        padding: 10px;
+    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
     h1 {
         font-family: 'Varela Round';
         display: flex;
