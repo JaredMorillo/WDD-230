@@ -19,53 +19,69 @@ a {
     text-decoration: none;
     font-family: 'Varela Round';
 }
-/* Mobile View ***************/
 #menu {
-	display: block;
-	font-size: 2rem;
-	font-weight:700;
-	text-decoration: none;
-	padding: .5rem .75rem;
-	background-color: #eee;
-	color: #000;
-}
-#menu::before {
-	content: "≡";
-}
-nav{
     display: flex;
-    justify-content: space-between;
-    background-color: grey;
-    text-align: center;
-    padding: 10px;
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: .25rem .75rem;
+	background-color: white;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
 }
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
 .navigation {
+	display: flex;
+	flex-direction: column;
 	list-style: none;
-	margin: 0 auto;
-	max-width: 760px;
+	background-color: lightblue;
+	color: #fff;
 }
 .navigation li {
 	display: none;
 }
-.navigation a {
+.navigation li a {
 	display: block;
-	padding: 0.75rem;
-	text-align: left;
+	padding: 1rem;
+	text-align: center;
 	text-decoration: none;
-	color: black;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+	color: #fff;
 }
-.navigation a:hover, navigation a:active {
+.navigation li a:hover {
+	background-color: lightgrey;
 	color: white;
-	background-color: black;
+	font-weight: 700;
 }
-.show li {
+
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
 	display: block;
 }
-#menu.show::before {
-	content: "X";
+
+.active::before {
+	content: "📍 ";
+}
+
+.stuff {
+	margin: .5m;
+	border: 1px solid rgba(0,0,0,.1);
+	background-color: #bed;
+	max-width: 580px;
+	height: 100vh;
+	
 }
 h1 {
     font-family: 'Varela Round';
@@ -76,19 +92,49 @@ h3{
     background-color:lightblue;
 }
 ul {
-    border: 5px solid grey;
+    border: 5px solid lightgrey;
 }
 .maps{
     max-width: fit-content;
     display: block;
     justify-content: center;
     margin: 0 auto;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #000;
 }
 footer{
     text-align: center;
     font-family: 'Varela Round';
 }
+@media (min-width: 37.5em) {
+	h1 {
+		font-size: 2.5rem;
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	
+	.stuff {
+		margin: 1rem auto;
+	}
+}
+
 @media screen and (max-width: 768px){
     body{
         background-color: white;
@@ -115,19 +161,6 @@ footer{
         text-align: center;
         padding: 10px;
     }
-    .navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 100%;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	#menu {
-		display: none;
-	}
     h1 {
         font-family: 'Varela Round';
         display: flex;
