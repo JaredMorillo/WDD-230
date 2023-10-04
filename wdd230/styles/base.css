@@ -77,7 +77,7 @@ a {
 }
 
 .active::before {
-	content: "😸";
+	content: "😸 ";
 }
 
 .stuff {
