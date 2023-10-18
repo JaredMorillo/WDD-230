@@ -150,6 +150,7 @@ header {
 }
 .navigation li {
 	display: none;
+    
 }
 .navigation li a {
 	display: block;
@@ -157,6 +158,7 @@ header {
 	text-align: center;
 	text-decoration: none;
 	color: #6f7364;
+    transition: 0.5s;
 }
 .navigation li a:hover {
 	background-color: #89B92A;
