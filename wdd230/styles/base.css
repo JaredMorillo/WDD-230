@@ -47,7 +47,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	background-color: lightblue;
 	color: #fff;
 }
 .navigation li {
