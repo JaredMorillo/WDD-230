@@ -13,6 +13,10 @@ main{
     text-align: center;
     padding: 20px;
 }
+.hero img {
+    width: 100%;
+    height: auto;
+  }
 section ul li{
     padding: 0 auto;
     list-style-type: none;
