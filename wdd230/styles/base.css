@@ -58,6 +58,7 @@ a {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
+    transition: 0.5s;
 }
 .navigation li a:hover {
 	background-color: lightgrey;
