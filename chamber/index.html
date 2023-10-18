@@ -17,9 +17,12 @@
                 <img class="logo" src="images/png_landl.png" alt="lemonsandlove_logo">
             </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="healthy_recipes.html">Healthy Recipes</a>
-                <a href="contactus.html">Contact Us</a>
+                <button id="menu"></button>
+                <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="healthy_recipes.html">Healthy Recipes</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
             </nav>
         </header>
         <div id="home">
@@ -67,20 +70,9 @@
             </a>
         </div>    
     </footer>   
-
-<script>
-    var myVar;
-    
-    function myFunction() {
-      myVar = setTimeout(showPage, 3000);
-    }
-    
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
+</div>
+</div>
+<script src="scripts/hammenu.js">
 </script>
-</div>
-</div>
 </body>
 </html>
