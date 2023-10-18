@@ -146,7 +146,6 @@ header {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	background-color: #89B92A;
 	color: #6f7364;
 }
 .navigation li {
