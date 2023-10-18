@@ -206,10 +206,7 @@ header {
     border-left: 16px solid pink;
   }
   
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
+
   
   @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -263,7 +260,6 @@ footer p a:hover {
 		text-align: center;
 	}
     section ul li{
-        padding: 0 auto;
         list-style-type: none;
         list-style: none;
     }
