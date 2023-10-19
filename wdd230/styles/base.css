@@ -13,14 +13,38 @@ main{
     text-align: center;
     padding: 20px;
 }
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 800px;
+}
+
 .hero img {
-    width: 100%;
-    height: auto;
-  }
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 section ul li{
     padding: 0 auto;
     list-style-type: none;
     list-style: none;
+}
+.Temple{
+    position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, lightblue);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+.Temple p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
 }
 a {
     text-align: center;
