@@ -44,7 +44,7 @@ header {
     grid-template-columns: 150px auto;
 }
 .home-grid p{
-    padding: 35px;
+    padding: 10px 30px;
     background-color:#18873B;
     line-height: 1.5em;
     grid-column: 6/10;  
@@ -136,7 +136,7 @@ ul.temp {
     font-size: .8em;
 }
 .stress{
-    padding: 15px 30px;
+    padding: 5px 30px;
     background-color:#89B92A;
     text-decoration: none;
     font-size: 18px;
@@ -316,7 +316,7 @@ footer p a:hover {
 	}
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
     body {
         background-color:white;
         font-size: 22px;
