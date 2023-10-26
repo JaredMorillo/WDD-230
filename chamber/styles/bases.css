@@ -44,7 +44,7 @@ header {
     grid-template-columns: 150px auto;
 }
 .home-grid p{
-    padding: 10px 30px;
+    padding: 35px;
     background-color:#18873B;
     line-height: 1.5em;
     grid-column: 6/10;  
@@ -136,7 +136,7 @@ ul.temp {
     font-size: .8em;
 }
 .stress{
-    padding: 5px 30px;
+    padding: 15px 30px;
     background-color:#89B92A;
     text-decoration: none;
     font-size: 18px;
@@ -316,12 +316,13 @@ footer p a:hover {
 	}
 }
 
-@media only screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     body {
-        background-color:white;
+        background-color:#6f7364;
         font-size: 22px;
         margin: 0;
         padding: 0;
+        width: 100%;
     }
     #content{
         max-width: 1600px;
@@ -367,12 +368,10 @@ footer p a:hover {
         grid-row: 6/7;
         box-shadow: 5px 5px 10px #6f7364;
         font-family: 'Balsamiq Sans';
+        font-size: xx-small;
     }
     .fruits{
             width: 100%;
-            grid-column: 2/7;  
-            grid-row: 5/8;
-            transition: transform .5s;
             box-shadow: 5px 5px 10px #6f7364;
     }
     ul .temp{
@@ -399,9 +398,8 @@ footer p a:hover {
         z-index: -1;
     }
     #home-msg{
-        grid-column: 2;
-        grid-row: 2;
         margin-top: 100px;
+        align-content: center;
     }
     #home-msg h1{
         text-align: center;
@@ -424,7 +422,7 @@ footer p a:hover {
         padding: 15px 30px;
         background-color:#89B92A;
         text-decoration: none;
-        font-size: 18px;
+        font-size: x-small;
         margin-top: 50px;
         border-radius: 5px;
         border: solid #381D2A;
@@ -481,6 +479,7 @@ footer p a:hover {
       }
     footer {
         padding: 25px 50px;
+        width: 100%;
         background-color:#381D2A;
         margin-top: 200px;
         display: flex;
