@@ -43,6 +43,78 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+#welcome {
+    margin: 0;
+    font-family: 'Balsamiq Sans';
+    padding: 15px 30px;
+    font-size: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:#381D2A;
+    text-decoration: none;
+    text-align: center;
+    color:#89B92A;   
+}
+#fruit-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2em 1em;
+}
+.first-fruit h2  p{
+    padding-bottom: 15px;
+    font-family: 'Balsamiq Sans'; 
+    font-size: .8em;
+    text-align: center;
+
+}
+.second-fruit h2  p{
+    padding-bottom: 15px; 
+    font-family: 'Balsamiq Sans'; 
+    font-size: .8em;
+    text-align: center;
+
+}
+.third-fruit h2  p{
+    padding-bottom: 15px;
+    font-family: 'Balsamiq Sans'; 
+    font-size: .8em;
+    text-align: center;
+
+}
+.new-book {
+    text-align: center;
+    font-family: 'Balsamiq Sans';
+    color:#18873B;
+}
+.highlights {
+    text-align: center;
+    font-family: 'Balsamiq Sans';
+    color:#18873B;
+}
+.fruit1{
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1;  
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.fruit2{
+    width: 100%;
+    grid-column: 1;  
+    grid-row: 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.fruit3{
+    width: 100%;
+    grid-column: 2;  
+    grid-row: 3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#fruit-grid h2{
+    font-family: 'Dancing Script'; 
+    color:#381D2A;
+    align-items: center;
+}
 .home-grid p{
     padding: 35px;
     background-color:#18873B;
@@ -255,6 +327,25 @@ ul.temp {
     animation-name: animatebottom;
     animation-duration: 1s
   }
+.days{
+    margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	width: 760px;
+	background-color: rgba(225, 225, 255, 0.2);
+}
+.label {
+	display: block;
+	width: 175px;
+	font-weight: 700;
+	color: #381D2A;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+}
 footer {
     padding: 25px 50px;
     background-color:#381D2A;
@@ -358,6 +449,78 @@ footer p a:hover {
         background-color:#381D2A;
         display: grid;
         grid-template-columns: 150px auto;
+    }
+    #welcome {
+        margin: 0;
+        font-family: 'Balsamiq Sans';
+        padding: 15px 30px;
+        font-size: 100px;
+        margin-top: 50px;
+        border-radius: 5px;
+        background-color:#381D2A;
+        text-decoration: none;
+        text-align: center;
+        color:#89B92A;   
+    }
+    #fruit-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2em 1em;
+    }
+    .first-fruit h2  p{
+        padding-bottom: 15px;
+        font-family: 'Balsamiq Sans'; 
+        font-size: .8em;
+        text-align: center;
+    
+    }
+    .second-fruit h2  p{
+        padding-bottom: 15px; 
+        font-family: 'Balsamiq Sans'; 
+        font-size: .8em;
+        text-align: center;
+    
+    }
+    .third-fruit h2  p{
+        padding-bottom: 15px;
+        font-family: 'Balsamiq Sans'; 
+        font-size: .8em;
+        text-align: center;
+    
+    }
+    .new-book {
+        text-align: center;
+        font-family: 'Balsamiq Sans';
+        color:#18873B;
+    }
+    .highlights {
+        text-align: center;
+        font-family: 'Balsamiq Sans';
+        color:#18873B;
+    }
+    .fruit1{
+        width: 100%;
+        grid-column: 2;
+        grid-row: 1;  
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+    .fruit2{
+        width: 100%;
+        grid-column: 1;  
+        grid-row: 2;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+    .fruit3{
+        width: 100%;
+        grid-column: 2;  
+        grid-row: 3;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+    #fruit-grid h2{
+        font-family: 'Dancing Script'; 
+        color:#381D2A;
+        align-items: center;
     }
     .home-grid p{
         padding: 35px;
