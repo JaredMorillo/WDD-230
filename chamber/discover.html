@@ -96,9 +96,8 @@
                         we can help you have solutions to grow your business, and create a better ways to promote your 
                         products with others so everyone can buy it and it could be a good way to have an income for our families in our days,</p>
                 </section>
-                <main class="days">
-                    <h1>📅 Date Math (Days Between Dates)</h1>
-                    <p>See the ⚙️<a href="https://codepen.io/blazzard-jason/pen/ExeBjab" target="_blank">Date.now() TimeStamp</a> &nbsp; pen for Date.now() information.</p>
+    
+                    <h1>📅 Days Between Dates</h1>
                     <hr>
                     <p><span class="label">Date.now(): </span> <span id="today"></span> &nbsp;<span class="smaller">(milliseconds)</span></p>
                     <p><span class="label">Next Christmas: </span> <span id="christmas"></span> &nbsp; <span class="smaller">(milliseconds)</span></p>
@@ -106,7 +105,7 @@
                     <hr>
                     <p><span class="label">Days until Christmas: </span> <span id="daysleft"></span></p>
                 
-                </main>
+
 
     <footer>
         <p>Lemons & Love &copy; 2023 - Jared Morillo</p>
@@ -125,7 +124,34 @@
         </div>    
     </footer>   
 </div>
-</div>  
+</div>
+<script>
+    // milliseconds to days constant = 1000 ms/s * 60 s/m * 60 m/h * 24 h/day
+const msToDays = 84600000;
+// today's date
+const theDateToday = new Date();
+
+// initialize display elements
+const todayElement = document.querySelector("#today");
+const christmasElement = document.querySelector("#christmas");
+const christmasDateElement = document.querySelector("#christmasDate");
+const daysElement = document.querySelector("#daysleft");
+
+// processing
+const today = Date.now();
+const christmasDate = new Date(Date.UTC(theDateToday.getFullYear(), 11, 25));
+// check if is the waing days of December, if so ... change to next year.
+if (theDateToday.getMonth() == 11 && theDateToday.getDate() > 25) {
+	christmasDate.setFullYear(christmasDate.getFullYear() + 1);
+}
+// find difference between epoch times in ms and convert to days
+let daysleft = (christmasDate.getTime() - Date.now()) / msToDays;
+
+todayElement.textContent = today;
+christmasElement.textContent = christmasDate.getTime();
+christmasDateElement.textContent = christmasDate;
+daysElement.textContent = `${daysleft.toFixed(0)} days`;
+</script>  
 <script src="scripts/hammenu.js">
 </script>
 </body>

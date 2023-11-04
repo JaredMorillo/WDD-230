@@ -292,6 +292,14 @@ ul.temp {
 	height: 100vh;
 	
 }
+h1{
+    font-family: 'Balsamiq Sans';
+    color: #89B92A;
+}
+p{
+    font-family: 'Balsamiq Sans';
+    color: #18873B;
+}
 /* Center the loader */
 #loader {
     position: absolute;
@@ -327,13 +335,6 @@ ul.temp {
     animation-name: animatebottom;
     animation-duration: 1s
   }
-.days{
-    margin: 0;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 1rem;
-	width: 760px;
-	background-color: rgba(225, 225, 255, 0.2);
-}
 .label {
 	display: block;
 	width: 175px;
