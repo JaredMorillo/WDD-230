@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Jared G. Morillo - WDD 230 - Web Frontend Development</title>
+</head>
+<body>
+   <header>
+      <a id="logo_link" href="index.html">
+          <img class="logo" src="images/JG_After.jpg" alt="Jared Morillo" width="250" height="150"> 
+      </a>
+      <h1>Jared G. Morillo</h1>
+      <nav>
+          <button id="menu"></button>
+          <ul class="navigation">
+          <li><a href="index.html" title="Home" class="active">Home</a></li>
+          <li><a href="chamber-site-plan.html">Site Plan</a></li>
+          <li><a href="chamber/">Chamber</a></li>
+          <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+          <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng">Scripture</a></li>
+          </ul>
+      </nav>
+</header>
+    <main>
+        <h2>Form Example</h2>
+        <form action="record.html" method="get">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$">
+            <br>
+
+            <label for="passwordConfirm">Password repeated for confirmation</label>
+            <input type="password" id="passwordConfirm" name="passwordConfirm" required pattern="^[a-zA-Z0-9]{8,}$">
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+            <br>
+
+            <label for="pageRating">Page Rating</label>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="rangeValue.value = pageRating.value">
+            <output name="rangeValue">5</output>
+            <br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+      <p>&copy; <span id="copyrightYear"></span></p><p>&#9801; Jared Morillo &#9801;</p>
+      <p>Ecuador</p>
+      <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
