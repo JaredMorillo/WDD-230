@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>Lemons & Love | Healthy Recipes | Products </title>
+    <link type="text/css" rel="stylesheet" href="styles/bases.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div id ="content">
+        <header>
+            <a id="logo" href="index.html">
+                <img class="logo" src="images/png_landl.png" alt="lemonsandlove_logo">
+            </a>
+            <nav>
+                <button id="menu"></button>
+                <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Healthy Recipes</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="join.html">Rate Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Form Example</h2>
+            <form action="thankyou.html" method="get">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$">
+                <br>
+    
+                <label for="passwordConfirm">Password repeated for confirmation</label>
+                <input type="password" id="passwordConfirm" name="passwordConfirm" required pattern="^[a-zA-Z0-9]{8,}$">
+                <br>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui.edu$+@[a-zA-Z].com$" title="Please enter a valid email address">
+                <br>
+    
+                <label for="pageRating">Page Rating</label>
+                <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="rangeValue.value = pageRating.value">
+                <output name="rangeValue">5</output>
+                <br>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+            
+    <footer>
+        <p>Lemons & Love &copy; 2023 - Jared Morillo</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
+            </a>
+        </div>    
+    </footer>   
+</div>
+</div>  
+<script src="scripts/hammenu.js">
+</script>
+</body>
+</html>
