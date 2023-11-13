@@ -44,11 +44,33 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui.edu$+@[a-zA-Z].com$" title="Please enter a valid email address">
                 <br>
+
+                <label for="position">Title or Position:
+                    <input type="text" id="position" name="position" required pattern="[A-Za-z\s-]{7,}">
+                </label>
     
-                <label for="pageRating">Page Rating</label>
-                <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="rangeValue.value = pageRating.value">
-                <output name="rangeValue">5</output>
-                <br>
+                <label for="phone">Mobile Phone Number:
+                    <input type="tel" id="phone" name="phone" required>
+                </label>
+
+                <label for="orgName">Business/Organization Name:
+                    <input type="text" id="orgName" name="orgName" required>
+                </label>
+
+                <label for="membershipLevel">Membership Level:
+                    <select id="membershipLevel" name="membershipLevel">
+                        <option value="npMembership">NP Membership (No Fee)</option>
+                        <option value="bronzeMembership">Bronze Membership</option>
+                        <option value="silverMembership">Silver Membership</option>
+                        <option value="goldMembership">Gold Membership</option>
+                    </select>
+                </label>
+        
+                <label for="description">Business/Organization Description:
+                    <textarea id="description" name="description"></textarea>
+                </label>
+        
+                <input type="hidden" id="formTimestamp" name="formTimestamp">
     
                 <button type="submit">Submit</button>
             </form>

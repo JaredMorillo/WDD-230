@@ -26,5 +26,7 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
+// Set the current date/time in milliseconds to the hidden input field
+document.getElementById('formTimestamp').value = Date.now();
 
 
