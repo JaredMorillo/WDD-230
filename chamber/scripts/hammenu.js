@@ -30,6 +30,21 @@ hamButton.addEventListener('click', () => {
 document.getElementById('formTimestamp').value = Date.now();
 
 // Set a directory
+function loadMembers() {
+	fetch('data/members.json')
+	  .then(response => response.json())
+	  .then(data => displayMembers(data))
+	  .catch(error => console.error('Error fetching members:', error));
+  }
+  function displayMembers(members) {
+	const membersContainer = document.getElementById('members-container');
+	membersContainer.innerHTML = ''; // Clear container before displaying
+  
+	members.forEach(member => {
+	  const memberElement = createMemberElement(member);
+	  membersContainer.appendChild(memberElement);
+	});
+  }
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
