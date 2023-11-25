@@ -1,11 +1,20 @@
 [
     {
-      "name": "Company 1",
-      "address": "123 Main St, City, Country",
+      "name": "Echohappiness Project",
+      "address": "123 Green Street, City, Country",
       "phone": "+1234567890",
-      "website": "https://www.company1.com",
-      "image": "company1.png",
+      "website": "https://ecohappinessproject.com/lemon-juice-benefits/",
+      "image": "echohappiness_logo.png",
       "membership_level": "Gold",
-      "other_info": "Additional information about the company"
+      "other_info": "Engaged in eco-friendly projects since 2019"
+    },
+    {
+      "name": "Nature For All",
+      "address": "456 Nature Avenue, City, Country",
+      "phone": "+9876543210",
+      "website": "https://natureforall.global/home/",
+      "image": "nature_for_all.jpg",
+      "membership_level": "Silver",
+      "other_info": "Promoting nature conservation since 2017"
     }
   ]
