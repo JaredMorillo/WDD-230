@@ -1,0 +1,11 @@
+[
+    {
+      "name": "Company 1",
+      "address": "123 Main St, City, Country",
+      "phone": "+1234567890",
+      "website": "https://www.company1.com",
+      "image": "company1.png",
+      "membership_level": "Gold",
+      "other_info": "Additional information about the company"
+    }
+  ]
