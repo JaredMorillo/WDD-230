@@ -12,6 +12,7 @@ function updateLastModified() {
     document.getElementById('lastModified').textContent = lastModified;
 }
 
+//Hamburger Button
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 
