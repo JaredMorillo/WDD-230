@@ -134,6 +134,32 @@ h3{
 ul {
     border: 5px solid lightgrey;
 }
+/* Weather */
+.weather p {
+    background-color: white;
+}
+.weather-icon{
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #000;
+}
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-container h4{
+    text-align: center;
+    padding: 1rem;
+}
+
+figure{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .maps{
     max-width: fit-content;
     display: block;
