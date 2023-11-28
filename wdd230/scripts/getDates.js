@@ -93,7 +93,7 @@ function displayResults(data){
 }
 
 //Links
-const linksURL = "https://letiabelenda.github.io/wdd230/data/links.json";
+const linksURL = "https://jaredmorillo.github.io/WDD-230/data/links.json";
 
 async function getLinks() {
     const response = await fetch(linksURL);
