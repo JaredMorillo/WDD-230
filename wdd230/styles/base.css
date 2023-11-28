@@ -135,10 +135,7 @@ ul {
     border: 5px solid lightgrey;
 }
 /* Weather */
-.weather p {
-    background-color: white;
-}
-.weather-icon{
+#weather-icon{
 	border-radius: 5px;
 	box-shadow: 5px 5px 10px #000;
 }
