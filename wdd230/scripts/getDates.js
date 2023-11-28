@@ -92,7 +92,7 @@ function displayResults(data){
     weatherIcon.setAttribute('alt', desc);
 }
 
-//Links
+//Links JSON
 const linksURL = "https://jaredmorillo.github.io/WDD-230/data/links.json";
 
 async function getLinks() {
