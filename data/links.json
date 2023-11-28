@@ -1,0 +1,115 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson01/holygrail.html",
+                    "title":"HolyGrial"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson02/design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson02/design-principles.html",
+                    "title":"Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url":"https://codepen.io/JaredMorillo/pen/qBgyWrZ",
+                    "title":"Pseudo-Elements"
+                },
+                {
+                    "url":"https://codepen.io/JaredMorillo/pen/QWzZgRr",
+                    "title":"Hamburger Menu"
+                },
+                {
+                    "url":"http://127.0.0.1:5500/chamber-site-plan.html",
+                    "title":"Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url":"https://codepen.io/JaredMorillo/pen/YzBjKVZ",
+                    "title":"CodePen"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson05/bom.html",
+                    "title":"Book of Mormon Favorite Chapterss"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/wdd230/images/hero-large.webp",
+                    "title":"WebP"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson05/bom.html",
+                    "title":"BOM"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url":"https://codepen.io/JaredMorillo/pen/vYbaBJZ",
+                    "title":"Table"
+                },
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/form.html",
+                    "title":"Form"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson09/new-ward-members.json",
+                    "title":"JSON"
+                },
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson09/prophets.html",
+                    "title":"Prophets"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url":"https://jaredmorillo.github.io/WDD-230/lesson10/weather.html",
+                    "title":"Weather"
+                }
+            ]
+        }
+
+    ]
+}
