@@ -63,7 +63,7 @@ localStorage.setItem("numVisits-ls", numVisits);
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Montevideo&units=imperial&appid=0a65e95b7d2094ce2cd33a12b03b9c98';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Guayaquil&units=imperial&appid=0a65e95b7d2094ce2cd33a12b03b9c98';
 
 async function apiFetch(){
     try{

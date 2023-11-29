@@ -137,7 +137,8 @@ ul {
 /* Weather */
 #weather-icon{
 	border-radius: 5px;
-	box-shadow: 5px 5px 10px lightblue;
+	background-color: lightblue;
+	box-shadow: 5px 5px 10px rgb(69, 150, 177);
 }
 .weather-container{
     display: flex;
@@ -187,7 +188,8 @@ footer{
 	* Weather */
 	#weather-icon{
 		border-radius: 5px;
-		box-shadow: 5px 5px 10px lightblue;
+		background-color: lightblue;
+		box-shadow: 5px 5px 10px rgb(69, 150, 177);
 	}
 	.weather-container{
 		display: flex;
@@ -255,7 +257,8 @@ footer{
 	* Weather */
 	#weather-icon{
 		border-radius: 5px;
-		box-shadow: 5px 5px 10px lightblue;
+		background-color: lightblue;
+		box-shadow: 5px 5px 10px rgb(69, 150, 177);
 	}
 	.weather-container{
 		display: flex;
