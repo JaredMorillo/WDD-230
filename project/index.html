@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="icon" href="favicon.ico">
+  <title>Scoots</title>
+</head>
+<body>
+
+  <!-- Closeable message with high temperature -->
+  <div class="closeable-message">
+    Today's high temperature: <span id="high-temp"></span>
+    <button onclick="closeMessage()">Close</button>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <a id="logo_link" href="index.html">
+      <img class="logo" src="images/mylogo.png" alt="Jared Morillo" width="50" height="50"> 
+  </a>
+    <h1>Welcome to ~Scoots~</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- Other navigation links -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Image Gallery of the island and rental facilities -->
+  <section class="image-gallery">
+    <!-- Images and rental facility photos -->
+  </section>
+
+  <!-- Call to action for rental reservation -->
+  <section class="call-to-action">
+    <h2>Make a Rental Reservation</h2>
+    <!-- Your reservation form or button -->
+    <a href="reservations.html" class="reservation-button">Reserve Now</a>
+  </section>
+
+  <!-- Summary information about all types of rentals -->
+  <section class="summary-rentals">
+    <h2>Types of Rentals</h2>
+    <li>Honda Motor Scooters
+        <ul>
+          <li>Honda Metropolitan (49cc) - 1 person</li>
+          <li>Honda Dio (110cc) - 2 person</li>
+          <li>Honda PCX150 (149cc) - 2 person</li>
+        </ul>
+      </li>
+      <li>Side-by-Side ATVs
+        <ul>
+          <li>Honda Pioneer 1000 - 4 person</li>
+        </ul>
+      </li>
+      <li>Jeeps
+          <ul>
+            <li>Jeep Wrangler - 4 door manuel with A/C - 5 person</li>
+            <li>Jeep Wrangler - 2 door - open air - manuel - 4 person</li>
+          </ul>
+        </li>
+    </ul>
+  </section>
+
+  <!-- Weather information -->
+  <div class="weather-container">
+    <h2>Weather Information</h2>
+    <p>Current Temperature: <span id="current-temp"></span> °F</p>
+    <p>Current Humidity: <span id="current-humidity"></span>%</p>
+    <p>Next Day's Forecast at 3:00 PM: <span id="next-day-forecast"></span></p>
+    <p id="weather-description"></p>
+    <figure>
+        <img id="weather-icon" src="https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png" alt="Weather" width="100" height="100"/>
+        <figcaption></figcaption>
+    </figure>
+</div>
+<hr>
+
+  <!-- Social media links -->
+  <section class="social-media">
+    <!-- Your social media links -->
+    <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p> <p>Contact us: contact@example.com | Phone: 123-456-7890</p>
+  </section>
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>

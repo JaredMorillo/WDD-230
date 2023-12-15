@@ -1,0 +1,53 @@
+{
+    "name": "Max Rental Pricing",
+    "rentalType": [
+      {
+        "type": "Honda Metro Scooter",
+        "maxPersons": 1,
+        "pricing": {
+          "halfDay": 30,
+          "fullDay": 40
+        }
+      },
+      {
+        "type": "Honda Dio Scooter",
+        "maxPersons": 2,
+        "pricing": {
+          "halfDay": 40,
+          "fullDay": 50
+        }
+      },
+      {
+        "type": "Honda PCX150 Scooter",
+        "maxPersons": 2,
+        "pricing": {
+          "halfDay": 45,
+          "fullDay": 55
+        }
+      },
+      {
+        "type": "Honda Pioneer ATV",
+        "maxPersons": 4,
+        "pricing": {
+          "halfDay": 60,
+          "fullDay": 80
+        }
+      },
+      {
+        "type": "Jeep Wrangler - 4 door with a/c",
+        "maxPersons": 5,
+        "pricing": {
+          "halfDay": 85,
+          "fullDay": 125
+        }
+      },
+      {
+        "type": "Jeep Wrangler - 2 door",
+        "maxPersons": 4,
+        "pricing": {
+          "halfDay": 70,
+          "fullDay": 90
+        }
+      }
+    ]
+  }
