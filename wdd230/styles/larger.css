@@ -1,0 +1,74 @@
+@media only screen and (min-width: 600px) {
+
+    body{
+        width: 50%;
+        margin: 0 auto;
+        align-content: center;
+    }
+
+    header h1{
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    nav {
+        max-width: 100%;
+        background-color: black;
+    }
+    
+    .navigation {
+		display: flex;
+	}
+    
+	.navigation li {
+		display: block;
+        flex: 1 1 100%;
+    }
+    
+    .navigation a {
+        text-align: center;
+    }
+
+    .active::before {
+        content: "😸";
+    }
+
+    #menu {
+        display: none;
+    }
+
+    header img{
+        width: 200px;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+        box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+        padding-left: 0;
+        margin-left: 1rem;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    main h2 {
+        grid-column: 1/-1;
+    }
+
+    .card1 {
+        grid-column: 1;
+        grid-row: 2/4;
+    }
+    .card2{
+        grid-column: 2;
+        grid-row: 2/3;
+    }
+
+    div.hero {
+        width: 100%;
+        margin-top: 1.5rem;
+        position: relative;
+    }
+}
