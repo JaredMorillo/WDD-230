@@ -149,7 +149,7 @@ ul {
 /* Weather */
 #weather-icon{
 	border-radius: 5px;
-	background-color: navy;
+	background-color: lightblue;
 	box-shadow: 5px 5px 10px rgb(69, 150, 177);
 }
 .weather-container{
@@ -196,11 +196,6 @@ footer{
         list-style: none;
     }
 	* Weather */
-	#weather-icon{
-		border-radius: 5px;
-		background-color: navy;
-		box-shadow: 5px 5px 10px rgb(69, 150, 177);
-	}
 	.weather-container{
 		display: flex;
 		flex-direction: column;
