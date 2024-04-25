@@ -195,26 +195,6 @@ footer{
         list-style-type: none;
         list-style: none;
     }
-	* Weather */
-	.weather-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.weather-container h4{
-		text-align: center;
-		padding: 1rem;
-	}
-
-	figure{
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
 	#menu {
 		display: none; /* hide hamburger button */
 	}
@@ -259,25 +239,6 @@ footer{
         text-align: center;
         padding: 10px;
     }
-	* Weather */
-	.weather-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.weather-container h4{
-		text-align: center;
-		padding: 1rem;
-	}
-
-	figure{
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
     h1 {
         font-family: 'Varela Round';
         display: flex;
