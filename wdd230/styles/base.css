@@ -5,8 +5,9 @@ body{
     font-size: 22px;
 }
 header{
-    background-color: navy;
+    background-color: lightseagreen;
     display: grid;
+    position: relative;
 }
 header img{
     width: 100%;
@@ -20,7 +21,18 @@ header h1 {
     margin: 5rem auto;
     text-align: center;
 }
+#darkBtn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 24px;
+    background-color: none;
+    cursor: pointer;
+}
 main{
+    margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: #eee;
     font-family: 'Josefin Sans';
     text-align: center;
     padding: 20px;
@@ -141,7 +153,7 @@ h1,h2,h3,h4,h5,h6 {
 	color: white;
 }
 h3{
-    background-color:navy;
+    background-color:lightseagreen;
 }
 ul {
     border: 5px solid black;
@@ -179,6 +191,8 @@ figure{
 footer{
     text-align: center;
     font-family: 'Varela Round';
+    background-color: lightseagreen;
+    color: white;
 }
 @media (min-width: 37.5em) {
 	h1 {
@@ -186,6 +200,13 @@ footer{
 		margin-left: 0;
 		text-align: center;
 	}
+    header img{
+        width: 100px;
+        margin-top: 1rem;
+        box-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+        padding-left: 0;
+        margin-left: 1rem;
+    }
 	
 	h2 {
 		font-size: 2rem;
@@ -218,8 +239,14 @@ footer{
         background-color: white;
     }
     header{
-        background-color: navy;
+        background-color: lightseagreen;
         display: grid;
+    }
+    header img{
+        width: 100px;
+        margin-top: 1rem;
+        padding-left: 0;
+        margin-left: 1rem;
     }
     main{
         font-family: 'Josefin Sans';
@@ -245,7 +272,7 @@ footer{
         justify-content: space-around;
     }
     h3{
-        background-color:navy;
+        background-color:lightseagreen;
     }
     ul {
         border: 5px solid grey;
