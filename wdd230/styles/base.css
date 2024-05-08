@@ -24,7 +24,7 @@ header h1 {
 #darkBtn{
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 5rem;
     width: 24px;
     background-color: none;
     cursor: pointer;
@@ -33,6 +33,7 @@ main{
     margin: 0;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #eee;
+    color: lightseagreen;
     font-family: 'Josefin Sans';
     text-align: center;
     padding: 20px;
@@ -88,7 +89,6 @@ a {
 	font-size: 1.5rem;
 	border: 1px solid rgba(0,0,0,.3);
 	padding: .25rem .75rem;
-	background-color: white;
 	color: #000;
 	position: absolute;
 	top: 1rem;
@@ -146,14 +146,15 @@ a {
 	height: 100vh;
 	
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h4,h5,h6 {
     font-family: 'Varela Round';
     display: flex;
     justify-content: space-around;
-	color: white;
+	color: lightseagreen;
 }
 h3{
     background-color:lightseagreen;
+    color:#eee;
 }
 ul {
     border: 5px solid black;
@@ -252,6 +253,7 @@ footer{
         font-family: 'Josefin Sans';
         text-align: center;
         padding: 20px;
+        color: lightseagreen;
     }
     a {
         padding: 35px;
