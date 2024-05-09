@@ -20,6 +20,7 @@ header h1 {
     display: flex;
     margin: 5rem auto;
     text-align: center;
+    color: white;
 }
 #darkBtn{
     position: absolute;
