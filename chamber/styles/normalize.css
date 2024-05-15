@@ -195,7 +195,10 @@
   button,
   [type="button"],
   [type="reset"],
-  [type="submit"] 
+  [type="submit"] {
+    -webkit-appearance: button;
+    appearance: button;
+  }
   
   /**
    * Remove the inner border and padding in Firefox.
@@ -286,6 +289,8 @@
    */
   
   [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    appearance: button;
     outline-offset: -2px; /* 2 */
   }
   
