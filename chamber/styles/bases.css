@@ -40,10 +40,6 @@ main{
     text-align: center;
     padding: 20px;
 }
-#ending{
-    text-decoration: none;
-    justify-items: center;
-}
 :root {
     --primary-color: #89B92A;
     --form-padding: 10px;
@@ -543,11 +539,17 @@ footer p a:hover {
 }
 
 @media (min-width: 37.5em) {
-	h1 {
+    h1 {
 		font-size: 2.5rem;
 		margin-left: 0;
 		text-align: center;
 	}
+    header img{
+        width: 100px;
+        margin-top: 1rem;
+        padding-left: 0;
+        margin-left: 1rem;
+    }
 	
 	h2 {
 		font-size: 2rem;
@@ -557,7 +559,6 @@ footer p a:hover {
         list-style-type: none;
         list-style: none;
     }
-
 	#menu {
 		display: none; /* hide hamburger button */
 	}
@@ -570,11 +571,11 @@ footer p a:hover {
 		display: block;
 		flex: 1 1 100%;
 	}
+	
 	.stuff {
 		margin: 1rem auto;
 	}
 }
-
 @media screen and (max-width: 768px){
     body {
         background-color:white;
