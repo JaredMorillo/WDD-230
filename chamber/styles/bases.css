@@ -36,9 +36,7 @@ header {
     grid-template-columns: 150px auto;
 }
 main{
-    margin: 0;
     text-align: center;
-    padding: 20px;
 }
 :root {
     --primary-color: #89B92A;
@@ -214,7 +212,6 @@ h1,h2,h3,h4,h5,h6{
 #fruit-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 2em 1em;
 }
 .first-fruit h2  p{
