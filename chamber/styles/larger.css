@@ -1,0 +1,67 @@
+@media only screen and (min-width: 600px) {
+
+    body{
+        width: 50%;
+        margin: 0 auto;
+        align-content: center;
+    }
+
+    header h1{
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;       
+    }
+
+    nav {
+        max-width: 100%;
+    }
+
+    #home-msg{
+        grid-column: 2;
+        grid-row: 2;
+        margin-top: 100px;
+    }
+    
+    .navigation {
+		display: flex;
+	}
+    
+	.navigation li {
+		display: block;
+        flex: 1 1 100%;
+    }
+    
+    .navigation a {
+        text-align: center;
+    }
+
+    .active::before {
+        content: "♠";
+    }
+
+    #menu {
+        display: none;
+    }
+
+    header img{
+        width: 200px;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+        padding-left: 0;
+        margin-left: 1rem;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    main h2 {
+        grid-column: 1/-1;
+    }
+
+    div.hero {
+        width: 100%;
+        margin-top: 1.5rem;
+        position: relative;
+    }
+}
