@@ -18,7 +18,7 @@ a {
 }
 nav a:hover {
     background-color: black;
-    color: #89B92A;
+    color: lightblue;
 } 
 nav{
     max-width: 100%;
@@ -26,12 +26,12 @@ nav{
 nav a {
     padding: 35px;
     text-align: center;
-    color: #89B92A;
+    color: lightblue;
     text-decoration: none;
     justify-items: center;
 }
 header {
-    background-color:#381D2A;
+    background-color:navy;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -39,7 +39,7 @@ main{
     text-align: center;
 }
 :root {
-    --primary-color: #89B92A;
+    --primary-color: lightblue;
     --form-padding: 10px;
   }  
 form {
@@ -92,7 +92,7 @@ button {
   }
   
 button:hover {
-    background-color: #18873B;
+    background-color: lightskyblue;
   }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Balsamiq Sans';
@@ -207,7 +207,7 @@ h1,h2,h3,h4,h5,h6{
     background-color:#381D2A;
     text-decoration: none;
     text-align: center;
-    color:#89B92A;   
+    color:lightblue;   
 }
 #fruit-grid{
     display: grid;
@@ -269,26 +269,26 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
 }
 .home-grid p{
-    padding: 35px;
-    background-color:#18873B;
+    background-color:lightskyblue;
     line-height: 1.5em;
     grid-column: 6/10;  
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
     font-family: 'Balsamiq Sans';
     color: #381D2A;
+    margin-top: 100px;
 }
 .fruits{
         width: 100%;
-        grid-column: 2/7;  
-        grid-row: 5/8;
+        grid-column: 1/7;  
+        grid-row: 6/7;
         transition: transform .5s;
         box-shadow: 5px 5px 10px #6f7364;
 }
 ul.temp {
     list-style: none;
     font-family:'Balsamiq Sans'; 
-    color: #6f7364;
+    color: lightskyblue;
 }
 .hero-z{
 	margin: 10px auto;
@@ -306,7 +306,7 @@ ul.temp {
     position: absolute;
 	top: 30px;
 	left: 30px;
-	background: radial-gradient(#fff, #89B92A);
+	background: radial-gradient(#fff, lightblue);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
@@ -321,7 +321,9 @@ ul.temp {
 }
 .home-grid{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    margin: 0;
+    padding: 20px;
 }
 .mountains{
     width: 100%;
@@ -335,7 +337,7 @@ ul.temp {
     margin-top: -100px; 
 }
 h1.home-title{
-    color: #18873B;
+    color: lightskyblue;
 }
 #home-box{
     grid-column: 1/4;
@@ -367,7 +369,7 @@ h1.home-title{
 }
 .stress{
     padding: 15px 30px;
-    background-color:#89B92A;
+    background-color:lightblue;
     text-decoration: none;
     font-size: 18px;
     margin-top: 50px;
@@ -375,14 +377,14 @@ h1.home-title{
     border: solid #381D2A;
 }
 .book:hover{
-    background-color:#89B92A;
+    background-color:lightblue;
 }
 .button-box{
     text-align: center;
 }
 #background {
     height: 725px;
-    background-color: #89B92A;
+    background-color: lightblue;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -425,13 +427,13 @@ h1.home-title{
     transition: 0.5s;
 }
 .navigation li a:hover {
-	background-color: #89B92A;
+	background-color: lightblue;
 	color: #6f7364;
 	font-weight: 700;
 }
 div.basefooter{
     font-family: 'Balsamiq Sans';
-
+    color: lightskyblue;
 }
 
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
@@ -456,11 +458,11 @@ div.basefooter{
 }
 h1{
     font-family: 'Balsamiq Sans';
-    color: #89B92A;
+    color: lightblue;
 }
 p{
     font-family: 'Balsamiq Sans';
-    color: #18873B;
+    color: navy;
 }
 /* Center the loader */
 #loader {
@@ -511,10 +513,11 @@ p{
 }
 footer {
     padding: 25px 50px;
-    background-color:#381D2A;
+    background-color: navy;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 200px;
 }
 footer .social img {
     padding-top: 15px;
@@ -522,10 +525,10 @@ footer .social img {
 footer a{
     text-decoration: none;
     border-radius: 5px; 
-    color: #89B92A;
+    color: lightblue;
 }
 footer p{
-    color:#89B92A;
+    color:lightblue;
 }
 footer p {
     font-family: 'Balsamiq Sans';
@@ -582,7 +585,7 @@ footer p a:hover {
     }
     .home-title {
         font-family: 'Dancing Script';
-        color:#89B92A;
+        color:lightblue;
         font-size: 2em;
         margin-top: 10px;   
     }
@@ -594,7 +597,7 @@ footer p a:hover {
     }
     nav a:hover {
         background-color: black;
-        color: #89B92A;
+        color: lightblue;
     } 
     nav{
         display: flex;
@@ -602,11 +605,11 @@ footer p a:hover {
         padding: 10px;
     }
     nav a {
-        color: #89B92A;
+        color: lightblue;
         text-decoration: none;
     }
     header {
-        background-color:#381D2A;
+        background-color:navy;
         display: grid;
     }
     #fruit-grid{
@@ -639,12 +642,12 @@ footer p a:hover {
     .new-book {
         text-align: center;
         font-family: 'Balsamiq Sans';
-        color:#18873B;
+        color:lightskyblue;
     }
     .highlights {
         text-align: center;
         font-family: 'Balsamiq Sans';
-        color:#18873B;
+        color:lightskyblue;
     }
     .fruit1{
         width: 100%;
@@ -671,7 +674,7 @@ footer p a:hover {
     }
     .home-grid p{
         padding: 35px;
-        background-color:#18873B;
+        background-color:lightskyblue;
         line-height: 1.5em;
         grid-column: 6/10;  
         grid-row: 6/7;
@@ -729,7 +732,7 @@ footer p a:hover {
     }
     .stress{
         padding: 15px 30px;
-        background-color:#89B92A;
+        background-color:lightblue;
         text-decoration: none;
         font-size: 12.5px;
         margin-top: 50px;
@@ -737,14 +740,14 @@ footer p a:hover {
         border: solid #381D2A;
     }
     .book:hover{
-        background-color:#89B92A;
+        background-color:lightblue;
     }
     .button-box{
         text-align: center;
     }
     #background {
         height: 725px;
-        background-color: #89B92A;
+        background-color: lightblue;
         grid-column: 1/11;
         grid-row: 4/9;
     }
@@ -801,10 +804,10 @@ footer p a:hover {
     footer a{
         text-decoration: none;
         border-radius: 5px; 
-        color: #89B92A;
+        color: lightblue;
     }
     footer p{
-        color:#89B92A;
+        color:lightblue;
     }
     footer p {
         font-family: 'Balsamiq Sans';
