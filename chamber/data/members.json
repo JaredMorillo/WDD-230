@@ -1,21 +1,21 @@
 [
     {
-      "name": "Echohappiness Project",
-      "address": "123 Green Street, City, Country",
-      "phone": "+1234567890",
-      "website": "https://ecohappinessproject.com/lemon-juice-benefits/",
-      "image": "echohappiness_logo.png",
+      "name": "Parque Historico",
+      "address": "Km 1½ vía a Samborondón, Av. Los Arcos y Río Guayas",
+      "phone": "+593 4 372 5260",
+      "website": "https://www.hoteldelparquehistorico.com/es/parque/",
+      "image": "images/park.png",
       "membership_level": "Gold",
-      "other_info": "Engaged in eco-friendly projects since 2019"
+      "other_info": "It was inaugurated on October 21, 1999"
     },
     {
-      "name": "Nature For All",
-      "address": "456 Nature Avenue, City, Country",
-      "phone": "+9876543210",
-      "website": "https://natureforall.global/home/",
-      "image": "nature_for_all.jpg",
+      "name": "Malecon 2000 Fundation",
+      "address": "Sargento Vargas #116 y Av. Olmedo",
+      "phone": "+593 4 252 4530",
+      "website": "https://malecon.org.ec/",
+      "image": "images/malecon.jpg",
       "membership_level": "Silver",
-      "other_info": "Promoting nature conservation since 2017"
+      "other_info": "It was inaugurated on July 25, 2000"
     }
     
   ]
