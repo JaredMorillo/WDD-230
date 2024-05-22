@@ -1,0 +1,28 @@
+{
+    "family_name": "Morillo",
+    "moved_in_date": "2022-05-15",
+    "number_of_people": 4,
+    "visited_by_bishopric": true,
+    "family_members": [
+      {
+        "name": "Jean Morilo",
+        "gender": "Male",
+        "birthdate": "1992-10-31"
+      },
+      {
+        "name": "Jared Morillo",
+        "gender": "Male",
+        "birthdate": "2000-05-02"
+      },
+      {
+        "name": "Annette Morillo",
+        "gender": "Female",
+        "birthdate": "1996-04-15"
+      },
+      {
+        "name": "Aaron Morillo",
+        "gender": "Male",
+        "birthdate": "1994-10-09"
+      }
+    ]
+}
