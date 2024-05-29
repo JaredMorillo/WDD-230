@@ -22,6 +22,7 @@
 
 body {
   margin: 0;
+  align-items: center;
 }
 
 /**
@@ -29,7 +30,7 @@ body {
  */
 
 main {
-  display: block;
+  display: block; 
 }
 
 /**
